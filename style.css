@@ -226,6 +226,16 @@ textarea{
     border-radius: 12px;
 
     border: none;
+
+    
+}
+
+.contactform input:focus,
+textarea:focus{
+    border: none;
+    /* border: 3px solid #555; */
+
+    
 }
 
 .contactform label{
