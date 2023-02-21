@@ -4,59 +4,71 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">   
+
+    <link rel="stylesheet" href="style.css">
     <title>Mini-Task-1</title>
 </head>
 <body>
 
     <header>
-        <h1> Satrujit Behera</h1>
-        <p> Hello Mam, I am Satrujit Behera, a electrical final year student, currently working as a software engineer trainee in Kreeti technology. I always love to do designs and do drawings. I also love to learn new technology.</p>
+        <div class="pimg">
+            <!-- <img src="assets/image.jpeg" alt="" width="100%"> -->
+        </div>
+        <div>
+            <span class="start">MYSELF</span>
+            <h1> Satrujit Behera</h1>
+            <p> An electrical final year student, currently working as a software engineer trainee in Kreeti technology. I always love to do designs and do drawings. I also love to learn new technology.</p>
+
+            <a href="https://github.com/satrujit11"> Link to My Github</a>
+        </div>
+
+        
     </header>
-    <hr>
-    <section>
-        <h2>My Image</h2>
-        <img src="assets/image.jpeg" alt="" width="100%">
-    </section>
 
-    <section>
-        <h2>Link to My Github Page</h2>
-        <a href="https://github.com/satrujit11"> Github</a>
-    </section>
-    <hr>
-    <section>
-        <h2> List of Programming Languages I know</h2>
-        <ol>
-            <li>Python</li>
-            <li>C</li>
-            <li>C++</li>
-        </ol>
-    </section>
-    <hr>
-    <section>
-        <table>
-            <thead>
-                <th> Name</th>
-                <th>Age</th>
-                <th> College</th>
-                <th>Department</th> 
-            </thead>
 
-            <tbody>
-                <tr>
-                    <td> Satrujit</td>
-                    <td>22</td>
-                    <td>OUTR, Bhubaneswar</td>
-                    <td> Electrical Engineering</td>
-                </tr>
-            </tbody>
-        </table>
-    </section>
-    <hr>
-    <section>
+    
+    <div class="middle">
+        <section>
+            <h2> Programming Languages I Know</h2>
+            <hr>
+            <ul>
+                <li>Python</li>
+                <li>C</li>
+                <li>C++</li>
+            </ul>
+        </section>
+        
+        <section>
+            <h2> My  Details</h2>
+            <hr>
+            <table>
+                <thead>
+                    <th> Name</th>
+                    <th>Age</th>
+                    <th> College</th>
+                    <th>Department</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td> Satrujit</td>
+                        <td>22</td>
+                        <td>OUTR, Bhubaneswar</td>
+                        <td> Electrical Engineering</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </div>
 
-        <h2> Please fill this form.</h2>
+    <footer class="contactform">
 
-        <form action="" method="post">
+        <h2> Please fill this form</h2>
+
+        <form action="" method="post" class="contact">
             <div>
                 <label for="Name">Name</label>
                 <br>
@@ -73,10 +85,10 @@
                 <input type="number">
             </div>
 
-            <input type="button" onclick="location.href='submit.html'" value="Submit">
+            <input type="button" onclick="location.href='submit.html'" value="Submit" id="submitbutton" >
 
         </form>
-    </section>
+    </footer>
 
 
 

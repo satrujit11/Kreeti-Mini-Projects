@@ -1,0 +1,249 @@
+*{
+    box-sizing: border-box;
+
+    margin: 0;
+    padding: 0;
+
+}
+
+html{
+
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    align-items: center;
+
+    padding: 3rem;
+
+    background-color: #EBF0FF;
+    
+}
+
+header .pimg{
+    width: 552px;
+    height: 478px;
+
+    min-width: 500px;
+
+    border: 6px solid #CCD9FF;
+    border-radius: 12px;
+
+    background-image: url('assets/image.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+
+/* Header-Typography */
+
+header .start{
+    font-size: 2.4rem;
+    letter-spacing: 0.06em;
+    font-weight: 600;
+    line-height: 2.9rem;
+    text-transform: uppercase;
+
+    color: #919AB8;
+}
+
+header h1{
+    font-size: 8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.015em;
+
+    color: #001248;
+
+    margin-bottom: 1.2rem;
+}
+
+header p{
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 2.9rem;
+    line-height: 124.4%;
+
+    color: #404E7A;
+
+    margin-bottom: 1.2rem;
+    margin-bottom: 4rem;
+}
+
+header a{
+    font-size: 2rem;
+    line-height: 24px;
+    text-transform: capitalize; 
+    font-weight: 600;
+
+    text-decoration: none;
+
+    color: white;
+    background-color: #093EDC;
+
+    padding: 2rem;
+    border-radius: 1.2rem;
+    
+}
+
+.middle{
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+
+    margin: 6rem 3rem;
+}
+
+.middle section{
+    padding: 1rem;
+
+    border: 1px solid #D3D3D3;
+    border-radius: 6px;
+    width: 100%;
+}
+
+.middle section h2{
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 135.9%;
+
+    text-transform: uppercase;
+
+    margin-bottom: 2rem;
+
+
+}
+
+.middle section ul{
+    font-weight: 400;
+    font-size: 2.4rem;
+
+    list-style: none;
+
+    margin-top: 2rem;
+    padding-left: 0;
+
+
+}
+
+hr{
+    height: 1px ;
+    background-color: #D3D3D3;
+    border: none;
+}
+
+li{
+    display: inline-block;
+
+    padding: 2rem;
+
+    border: 1px solid #093EDC;
+    border-radius: 12px;
+
+    margin-right: 2rem;
+}
+
+
+/* table */
+
+table{
+    width: 100%;
+}
+
+th{
+    font-weight: 600;
+    height: 7rem;
+
+    color: #404E7A;
+
+}
+td{
+    font-weight: 400;
+    color: #404E7A;
+
+    
+}
+
+
+
+th, td {
+    font-size: 2.4rem;
+    text-align: left;
+}
+
+/* Contact Form */
+
+footer{
+    background: #001248;
+
+}
+
+.contact{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactform h2{
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 135.9%;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+    text-align: center;
+
+    padding-top: 6.4rem;
+    padding-bottom: 8rem;
+
+}
+
+.contactform input,
+textarea{
+    width: 100%;
+    padding: 2rem;
+    margin-top: 1.8rem;
+    margin-bottom: 2.4rem;
+
+    font-size: 1.6rem;
+
+    background: #D1DDFF;
+    border-radius: 12px;
+
+    border: none;
+}
+
+.contactform label{
+
+    font-size: 2.4rem;
+    font-weight: 600;
+
+    color: #9CB5FF;
+
+    text-transform: uppercase;
+
+    
+    
+}
+
+/* Button */
+
+#submitbutton{
+
+    background: #093EDC;
+    color: white;
+
+    font-weight: 600;
+    font-size: 2rem;
+
+    margin-bottom: 6.4rem;
+}
